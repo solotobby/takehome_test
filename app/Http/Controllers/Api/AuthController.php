@@ -49,7 +49,8 @@ class AuthController extends Controller
                         'expires_in' => auth()->factory()->getTTL() * 60,
                     ],
                 ],
-            ]);
+                
+            ], 201);
 
         } catch(Exception $exception){
             //handles error

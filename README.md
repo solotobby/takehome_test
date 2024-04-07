@@ -6,7 +6,7 @@ Here are the instructions on how to run the application.
 
 It is really simple and straight forwadr. 
 
-1. clone the project
+1. clone the project - git clone https://github.com/solotobby/takehome_test.git
 2. run composer install - this install all packages
 3. setup env file. or i'll attach my sample of information needed at this file.
 4. run migration: php artisan migrate - this setup the databse
@@ -25,9 +25,9 @@ How to test the api endpoint
     api/upload/266de418-cb3d-40e8-bbf7-7b8f70073a48 (in my example i auto generated a csv file with ) - GET
 5. to logout - POST
     api/logout
-6. i wrote test cases for the application on display of product. 
+6. i wrote test cases for the application. 
     run this command for test: php artisan test tests/Feature/ProductTest.php 
-
+    
 
 
 ***************  env file ****************
